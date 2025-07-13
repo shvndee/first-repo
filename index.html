@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Moja pasja</title>
+		<style>
+			@media print {
+			}
+
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: "Lexend", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: normal;
+				font-style: normal;
+				background-color: #251904;
+				color: white;
+			}
+
+			nav {
+				background-color: #1e1a05;
+				position: sticky;
+				top: 0px;
+			}
+			ul,
+			a {
+				margin: 0px;
+				padding: 5px;
+				margin-right: 10px;
+				color: #ffffff;
+				text-decoration: none;
+				display: flex;
+				justify-content: right;
+				list-style: none;
+				gap: 30px;
+			}
+
+			header {
+				color: white;
+				width: 100%;
+				height: 500px;
+				background-image: url(OBRAZY/baner.png);
+				clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 80%);
+				background-size: 100vw;
+				background-repeat: no-repeat;
+			}
+			header h1 {
+				margin: 0px;
+				margin-left: 200px;
+				position: sticky;
+				top: 150px;
+				font-size: 4em;
+			}
+
+			header h2 {
+				position: sticky;
+				margin-left: 250px;
+				top: 230px;
+				font-size: 2em;
+			}
+
+			main h1 {
+				margin-top: 50px;
+				text-align: center;
+				text-decoration: underline;
+			}
+
+			.box1 img {
+				float: left;
+				margin-right: 20px;
+				border-radius: 10px;
+			}
+
+			.box1 {
+				float: left;
+				clear: both;
+				background-color: rgb(70, 50, 11);
+				margin-left: 75px;
+				margin-right: 75px;
+				border-radius: 10px;
+			}
+
+			.box2 {
+				float: left;
+				background-color: rgb(70, 50, 11);
+				border-radius: 10px;
+				margin-top: 26px;
+				margin-left: 75px;
+				margin-right: 75px;
+				margin-bottom: 17.5px;
+			}
+
+			.box2 .left {
+				padding: 20px;
+				width: 100%;
+			}
+
+			.box2 iframe {
+				float: right;
+				margin-right: 40px;
+				margin-left: 5px;
+				border-radius: 10px;
+			}
+
+			.box2 .left #info {
+				color: gray;
+				margin: 0;
+			}
+
+			footer {
+				text-align: center;
+				font-size: 1.5em;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">STRONA GLOWNA</a></li>
+				<li><a href="index2.html">PRZEPISY</a></li>
+				<li><a href="index3.html">GALERIA</a></li>
+				<li><a href="index4.html">KONTAKT</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Cukiernictwo</h1>
+			<h2>Moja pasja</h2>
+		</header>
+		<main>
+			<h1>Artykuły</h1>
+			<div class="box1">
+				<img src="OBRAZY/glowna-box1.png" alt="" width="300" />
+				<p>
+					<strong>Cukiernictwo</strong> to takie miejsce, gdzie możesz zjeść coś
+					słodkiego albo wypić coś smacznego, a do tego często jest tam obsługa
+					kelnerska – czyli ktoś, kto przyniesie ci jedzenie prosto do stolika.
+					W takim zakładzie znajdziesz różne wyroby ciastkarskie, czyli na
+					przykład ciasta, ciasteczka, babeczki, torty czy drożdżówki. Do tego
+					mają desery, które mogą być bardziej fancy, jak lody z bitą śmietaną,
+					panna cotta albo tiramisu. <br /><br />
+					Oprócz tego w cukierniach często są koktajle owocowe – to takie napoje
+					zrobione ze zmiksowanych owoców, czasem z dodatkiem jogurtu albo
+					mleka, które są super orzeźwiające, szczególnie w ciepłe dni. Możesz
+					też zamówić napoje gorące, czyli na przykład gorącą czekoladę, herbatę
+					albo kawę – idealne, jak jest zimno na dworze. No i jeszcze potrawy
+					śniadaniowe – to mogą być na przykład naleśniki z dżemem, tosty,
+					omlety albo kanapki, które świetnie pasują na początek dnia.
+					<br /><br />
+					Cukiernie to fajne miejsca, bo mają coś dla każdego – czy lubisz
+					słodkie, czy wolisz coś bardziej lekkiego, jak koktajl. Niektóre
+					cukiernie mają też opcję na wynos, więc możesz wziąć swoje ulubione
+					ciastko do domu albo do szkoły na przerwę. 😋
+				</p>
+			</div>
+
+			<div class="box2">
+				<div class="left">
+					<iframe
+						id="prawo"
+						width="300"
+						height="425"
+						src="https://www.youtube.com/embed/Pcfwk4LsJkA?si=cvmCs0og4Zek9bkf"
+						title="YouTube video player"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen
+					></iframe>
+					<strong>Marcepan</strong> - słodka masa cukiernicza utworzona głównie
+					z prażonych i zmielonych migdałów i cukru z dodatkiem olejku
+					migdałowego. Pod wpływem ciepła (wystarczy ogrzanie w dłoni) masa
+					staje się plastyczna, dlatego bywa używana do wyrobu ozdobnych,
+					skomplikowanych kształtów. <br /><br /><strong>Chatwa</strong> - wyrób
+					cukierniczy z karmelu oraz miazgi nasion oleistych pochodzący z Iranu.
+					Popularny w wielu innych rejonach świata - na Bałkanach, w krajach
+					śródziemnomorskich i zachodniej Azji. <br /><br /><strong
+						>Krówki (ciągutki mleczne, pomadki mleczne)</strong
+					>
+					- rodzaj polskich słodyczy, cukierki mleczne z miękkim, ciągliwym
+					nadzieniem. Konsystencja krówek wynika z czasu przechowywania po
+					wyprodukowaniu. Krówka świeża jest ciągnąca w całej objętości,
+					natomiast z upływem czasu w wyniku krystalizacji cukru zaczyna kruszeć
+					od zewnątrz. <br /><br /><strong>DraŻetka</strong> - tabletka
+					powleczona otoczką cukrową (najczęściej sacharozą). Otoczka dražetki
+					stanowi od 30% do 80% jej masy. <br /><br /><strong>Piernik</strong> -
+					twarde ciemnobrązowe ciasto robione z mieszaniny mąki pszennej i
+					żytniej, mleka, jajek, karmelizowanego cukru, miodu, mocno
+					przyprawione cynamonem, imbirem, a czasem także goździkami,
+					kardamonem, gałką muszkatołową, anyżem i lawendą. Nazwa piernik
+					wywodzi się od staropolskiego słowa .pierny", czyli pieprzny. Pierwszy
+					cech piernikarzy (kichlarzy, od niem. Küchler ) w Polsce powstał w
+					Krakowie. <br /><br /><strong>Karmelki (karmel alkaliczny)</strong> -
+					cukier spożywczy poddany działaniu wysokiej temperatury w procesie
+					karmelizacji, w wyniku czego uzyskuje on charakterystyczną brązową
+					(karmelową) barwę. Po ostygnięciu przybiera szklistą postać i może być
+					używany do dekoracji potraw. <br /><br /><strong>Herbatnik</strong> -
+					pieczony produkt konsumpcyjny, posiadający formę małych i twardych,
+					czasami słodzonych ciasteczek na bazie mąki, tłuszczu (np. masta),
+					cukru i środków spulchniających. <br /><br /><strong>Suchary</strong>
+					- rodzaj pieczywa wykonanego z mąki, wody i soli, czasem z dodatkiem
+					przypraw. Dzięki temu, że są tanie i mogą być przechowywane przez
+					długi czas, są często używane w sytuacjach, kiedy inna żywność nie
+					jest dostępna. <br />
+					<p id="info">
+						<em>Ciekawostki o cukiernictwie na podstawie Wikipedii</em>
+					</p>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<p>Copyright &copy; ZSE 2024 Julian Wiecha 1p</p>
+		</footer>
+	</body>
+</html>

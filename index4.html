@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Moja pasja</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: "Lexend", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: normal;
+				font-style: normal;
+				background-color: #251904;
+				color: white;
+			}
+
+			.nav {
+				background-color: #1e1a05;
+				position: sticky;
+				top: 0px;
+			}
+			ul,
+			a {
+				margin: 0px;
+				padding: 5px;
+				margin-right: 10px;
+				color: #ffffff;
+				text-decoration: none;
+				display: flex;
+				justify-content: right;
+				list-style: none;
+				gap: 30px;
+			}
+
+			header {
+				color: white;
+				width: 100%;
+				height: 500px;
+				background-image: url(OBRAZY/baner.png);
+				clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 80%);
+				background-size: 100vw;
+				background-repeat: no-repeat;
+			}
+			header h1 {
+				margin: 0px;
+				margin-left: 200px;
+				position: sticky;
+				top: 150px;
+				font-size: 4em;
+			}
+
+			header h2 {
+				position: sticky;
+				margin-left: 250px;
+				top: 230px;
+				font-size: 2em;
+			}
+			footer {
+				text-align: center;
+				font-size: 1.5em;
+			}
+			form {
+				display: grid;
+			}
+			input[type="text"],
+			select,
+			textarea {
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-top: 6px;
+				margin-bottom: 16px;
+				resize: vertical;
+			}
+
+			input[type="submit"] {
+				background-color: #5e4212;
+				color: white;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			input[type="submit"]:hover {
+				background-color: #523709;
+			}
+
+			.kontakt {
+				margin-left: auto;
+				margin-right: auto;
+				width: 35%;
+				border-radius: 5px;
+				background-color: #251904;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">STRONA GLOWNA</a></li>
+				<li><a href="index2.html">PRZEPISY</a></li>
+				<li><a href="index3.html">GALERIA</a></li>
+				<li><a href="index4.html">KONTAKT</a></li>
+			</ul>
+		</div>
+		<header>
+			<h1>Cukiernictwo</h1>
+			<h2>Moja pasja</h2>
+		</header>
+
+		<div class="kontakt">
+			<h1>Formularz kontaktowy</h1>
+			<form>
+				<label for="fname">Imię</label>
+				<input
+					type="text"
+					id="fname"
+					name="firstname"
+					placeholder="Podaj imię..."
+				/>
+
+				<label for="lname">Nazwisko</label>
+				<input
+					type="text"
+					id="lname"
+					name="lastname"
+					placeholder="Podaj nazwisko..."
+				/>
+
+				<label for="cause">Podaj powód kontaktu:</label>
+				<select id="cause" name="cause">
+					<option value="q1">Pytanie dotyczące strony</option>
+					<option value="q2">Pytanie dotyczące cukierni</option>
+					<option value="q3">Pytanie dotyczące produktu</option>
+				</select>
+
+				<label for="subject">Treść</label>
+				<textarea
+					id="subject"
+					name="subject"
+					placeholder="Napisz coś..."
+					style="height: 200px"
+				></textarea>
+
+				<input type="submit" value="Prześlij" />
+			</form>
+		</div>
+
+		<footer>
+			<p>Copyright &copy; ZSE 2024 Julian Wiecha 1p</p>
+		</footer>
+	</body>
+</html>

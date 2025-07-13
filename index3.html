@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Moja pasja</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: "Lexend", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: normal;
+				font-style: normal;
+				background-color: #251904;
+				color: white;
+			}
+
+			nav {
+				background-color: #1e1a05;
+				position: sticky;
+				top: 0px;
+			}
+			ul,
+			a {
+				margin: 0px;
+				padding: 5px;
+				margin-right: 10px;
+				color: #ffffff;
+				text-decoration: none;
+				display: flex;
+				justify-content: right;
+				list-style: none;
+				gap: 30px;
+			}
+
+			header {
+				color: white;
+				width: 100%;
+				height: 500px;
+				background-image: url(OBRAZY/baner.png);
+				clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 80%);
+				background-size: 100vw;
+				background-repeat: no-;
+			}
+			header h1 {
+				margin: 0px;
+				margin-left: 200px;
+				position: sticky;
+				top: 150px;
+				font-size: 4em;
+			}
+
+			header h2 {
+				position: sticky;
+				margin-left: 250px;
+				top: 230px;
+				font-size: 2em;
+			}
+
+			main h1 {
+				margin-top: 50px;
+				text-align: center;
+				text-decoration: underline;
+			}
+
+			main .box1 {
+				display: flex;
+				flex-wrap: wrap;
+				background-color: rgb(70, 50, 11);
+				margin-left: 125px;
+				margin-right: 125px;
+				border-radius: 10px;
+				justify-content: space-around;
+			}
+
+			footer {
+				text-align: center;
+				font-size: 1.5em;
+			}
+
+			div.gallery {
+				margin: 5px;
+				border: 1px solid #443005;
+				background-color: #a85d083a;
+				border-radius: 15px;
+				float: left;
+			}
+
+			div.gallery:hover {
+				border: 1px solid #8d5009;
+			}
+
+			div.gallery img {
+				width: auto;
+				height: 300px;
+				padding: 5px;
+				border-radius: 15px;
+			}
+
+			div.desc {
+				text-align: center;
+				padding-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">STRONA GLOWNA</a></li>
+				<li><a href="index2.html">PRZEPISY</a></li>
+				<li><a href="index3.html">GALERIA</a></li>
+				<li><a href="index4.html">KONTAKT</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Cukiernictwo</h1>
+			<h2>Moja pasja</h2>
+		</header>
+		<main>
+			<h1>Galeria</h1>
+			<div class="box1">
+				<div class="gallery">
+					<img
+						id="img1"
+						src="OBRAZY/3galeria/produkt1.png"
+						alt="Cinque Terre"
+					/>
+					<div class="desc">Ciasteczka polewane czekoladą - 150 zł</div>
+				</div>
+
+				<div class="gallery">
+					<img id="img2" src="OBRAZY/3galeria/produkt2.png" alt="Forest" />
+					<div class="desc">Tort weselny - 300zł</div>
+				</div>
+
+				<div class="gallery">
+					<img
+						id="img3"
+						src="OBRAZY/3galeria/produkt3.png"
+						alt="Northern Lights"
+					/>
+					<div class="desc">Tort urodzinowy - 235 zł</div>
+				</div>
+
+				<div class="gallery">
+					<img id="img4" src="OBRAZY/3galeria/produkt4.png" alt="Mountains" />
+					<div class="desc">Sernik z białą czekoladą - 21zł</div>
+				</div>
+
+				<div class="gallery">
+					<img id="img5" src="OBRAZY/3galeria/produkt5.png" alt="Mountains" />
+					<div class="desc">Ciasteczko czekoladowe - 50zł</div>
+				</div>
+				<div class="gallery">
+					<img id="img5" src="OBRAZY/3galeria/produkt6.png" alt="Mountains" />
+					<div class="desc">Ciasteczko czekoladowe - 50zł</div>
+				</div>
+				<div class="gallery">
+					<img id="img5" src="OBRAZY/3galeria/produkt9.png" alt="Mountains" />
+					<div class="desc">Ciasteczko czekoladowe - 50zł</div>
+				</div>
+
+				<div class="gallery">
+					<img id="img5" src="OBRAZY/3galeria/produkt7.png" alt="Mountains" />
+					<div class="desc">Ciasteczko czekoladowe - 50zł</div>
+				</div>
+				<div class="gallery">
+					<img id="img5" src="OBRAZY/3galeria/produkt8.png" alt="Mountains" />
+					<div class="desc">Ciasteczko czekoladowe - 50zł</div>
+				</div>
+				<div class="gallery">
+					<img id="img5" src="OBRAZY/3galeria/produkt10.png" alt="Mountains" />
+					<div class="desc">Ciasteczko czekoladowe - 50zł</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<p>Copyright &copy; ZSE 2024 Julian Wiecha 1p</p>
+		</footer>
+	</body>
+</html>
