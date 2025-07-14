@@ -1,3 +1,3 @@
-**first repostitory lol**  
+**first repostitory (test)**  
 ---
-this contains my website i made in school, basic `shit` nothing to look at
+`formatting test` _website from school_
